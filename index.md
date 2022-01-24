@@ -4,22 +4,26 @@ title:  "Wordle Time Machine"
 
 ## Features
 
-The original version of the game can only be played once a day, but this script will unlocks the game so that it can be played multiple times a day and the word change with the chosen date or randomly the word each time if you don't want to specify the date.
+Wordle allows us to enjoy once a day,
+but this script can unlock you to enjoy more times a day.
+
+The Time Machine provides you two options:
+1. Move to random date
+2. Move to specific date
 
 ## How to Use
 
-1. Create new bookmark on your browser.
-2. Change your bookmark address to this script.
+1. Add new bookmark on your browser.
+2. Edit your bookmark URL with the script below.
 ```
 javascript:(function()%7Blet%20s%3Ddocument.createElement('script')%3Bs.setAttribute('src'%2C'https%3A%2F%2Fipao.github.io%2Fwordle-time-machine%2Fwordle.js')%3Bdocument.body.appendChild(s)%3B%7D)();
 ```
-3. Open [Wordle](https://www.powerlanguage.co.uk/wordle/) Website.
-4. Click on bookmark.
-5. Enter date in format `yyyy-mm-dd` or left it blank to random the date.
-6. Popup will show the word number.
-7. Enjoy the game.
+3. Open [Wordle](https://www.powerlanguage.co.uk/wordle/).
+4. Click the bookmark added.
+5. Leave it blank OR enter a date in `yyyy-mm-dd`.
+6. Enjoy Wordle.
 
 ## Known Issue
 
 - Current streak will be reset after click the bookmark.
-- The word number in shared message will not changed from today number.
+- The word number in shared message will not be changed from today number.
