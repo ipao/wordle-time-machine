@@ -1,3 +1,7 @@
+---
+title:  "Wordle Time Machine"
+---
+
 ## Features
 
 The original version of the game can only be played once a day, but this thing will unlocks the game so that it can be played multiple times a day and the word change with the chosen date or randomly the word each time if you don't want to specify the date.
