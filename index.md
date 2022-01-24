@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# wordle-time-machine
+ Time traveler of Wordle on selected day.
 
-You can use the [editor on GitHub](https://github.com/ipao/wordle-time-machine/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Features
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The original version of the game can only be played once a day, but this thing will unlocks the game so that it can be played multiple times a day and the word change with the chosen date or randomly the word each time if you don't want to specify the date.
 
-### Markdown
+## How to Use
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Create new bookmark on your browser.
+2. Change your bookmark address to this script.
+`javascript:(function()%7Blet%20s%3Ddocument.createElement('script')%3Bs.setAttribute('src'%2C'https%3A%2F%2Fipao.github.io%2Fwordle-time-machine%2Fwordle.js')%3Bdocument.body.appendChild(s)%3B%7D)();`
+3. Open [Wordle](https://www.powerlanguage.co.uk/wordle/) Website
+4. Click on bookmark
+5. Enter date in format yyyy-mm-dd or left it blank to random the date.
+6. Popup will show the word number.
+7. Enjoy the game.
 
-```markdown
-Syntax highlighted code block
+##Known Issue
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ipao/wordle-time-machine/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Current streak will be reset after click the bookmark.
+- The word number in shared message will not changed from today number.
