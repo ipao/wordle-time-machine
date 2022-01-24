@@ -22,7 +22,7 @@ javascript:(function()%7Blet%20s%3Ddocument.createElement('script')%3Bs.setAttri
 5. Leave it blank OR enter a date in `yyyy-mm-dd`.
 6. Enjoy Wordle.
 
-##Known Issue
+## Known Issue
 
 - Current streak will be reset after click the bookmark.
 - The word number in shared message will not be changed from today number.
