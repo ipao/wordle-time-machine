@@ -15,7 +15,7 @@ if (r === false) {
     r = Math.floor(Math.random() * w.length)
 }
 alert('Day: ' + r)
-let a = JSON.parse(localStorage.getItem('gameState'))
+let a = JSON.parse(localStorage.getItem('nyt-wordle-state'))
 a.gameStatus = 'IN_PROGRESS'
 a.boardState = Array(6).fill('')
 a.evaluations = Array(6)
