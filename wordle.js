@@ -23,5 +23,5 @@ a.rowIndex = 0
 a.lastPlayedTs = (new Date).getTime()
 a.restoringFromLocalStorage=true
 a.solution = w[r]
-localStorage.setItem('gameState', JSON.stringify(a))
+localStorage.setItem('nyt-wordle-state', JSON.stringify(a))
 location.reload()
